@@ -16,7 +16,7 @@ class Router:
 
     @staticmethod
     def allow_relation(_obj1, _obj2, **_hints):
-        return getattr(settings, 'DATABASE_FOR_APPS_RELATIONS')
+        return getattr(settings, 'DATABASE_FOR_APPS_RELATIONS', None)
 
     @staticmethod
     def allow_migrate(db, app_label, _model=None, **_hints):
