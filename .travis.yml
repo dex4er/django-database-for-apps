@@ -42,7 +42,7 @@ install:
 script:
   - if [ "$TEST_LINT" = yes ]; then
       pipenv run flake8;
-      pipenv run pylint --rcfile=setup.cfg django_pyc test_project *.py;
+      pipenv run pylint --rcfile=setup.cfg django_database_for_apps test_project *.py;
       pipenv run bandit --ini setup.cfg --recursive --format screen .;
       pipenv run doc8 *.rst;
       pipenv run python setup.py build_sphinx;
