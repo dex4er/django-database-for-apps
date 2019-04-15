@@ -1,0 +1,4 @@
+- model: test_project.category
+  pk: 1
+  fields:
+    name: category

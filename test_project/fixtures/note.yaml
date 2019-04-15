@@ -1,0 +1,8 @@
+- model: test_project.note
+  pk: 1
+  fields:
+    category: 1
+    keywords: note
+    title: note
+    date: '2019-01-01 00:00:00+00:00'
+    content: note...
