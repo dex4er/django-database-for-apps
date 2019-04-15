@@ -1,0 +1,13 @@
+[
+{
+  "model": "test_project.note",
+  "pk": 1,
+  "fields": {
+    "category": 1,
+    "keywords": "note",
+    "title": "note",
+    "date": "2019-01-01T00:00:00Z",
+    "content": "note..."
+  }
+}
+]
