@@ -4,6 +4,7 @@ import io
 from django.core.management import call_command
 from django.test import TestCase
 
+
 class TestDjangoMigrationsIgnoreAttrs(TestCase):
     databases = {'default', 'django'}
 
