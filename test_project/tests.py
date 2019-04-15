@@ -1,9 +1,6 @@
 import json
 import io
 
-from unittest import mock
-
-from django.db import connection
 from django.core.management import call_command
 from django.test import TestCase
 
