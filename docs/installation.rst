@@ -15,3 +15,11 @@ Add ``django_database_for_apps`` to your installed apps in your settings.py file
       'django_database_for_apps',
       ...
   ]
+
+Configure DB routers:
+
+.. code:: python
+
+  DATABASE_ROUTERS = [
+      'django_database_for_apps.Router'
+  ]

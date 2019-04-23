@@ -35,6 +35,14 @@ settings.py file:
       ...
   ]
 
+Configure DB routers:
+
+.. code:: python
+
+  DATABASE_ROUTERS = [
+      'django_database_for_apps.Router'
+  ]
+
 
 Configuration
 -------------
